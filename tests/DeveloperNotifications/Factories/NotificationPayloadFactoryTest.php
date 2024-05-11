@@ -2,11 +2,11 @@
 
 namespace Tests\DeveloperNotifications\Factories;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\Factories\NotificationPayloadFactory;
-use Imdhemy\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\SubscriptionNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\TestNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\Factories\NotificationPayloadFactory;
+use Kashi326\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\SubscriptionNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\TestNotification;
 use Tests\TestCase;
 
 class NotificationPayloadFactoryTest extends TestCase

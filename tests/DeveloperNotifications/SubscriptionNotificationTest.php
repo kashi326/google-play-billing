@@ -2,8 +2,8 @@
 
 namespace Tests\DeveloperNotifications;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\SubscriptionNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\SubscriptionNotification;
 use Tests\TestCase;
 
 class SubscriptionNotificationTest extends TestCase

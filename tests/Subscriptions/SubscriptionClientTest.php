@@ -6,11 +6,11 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Subscriptions\SubscriptionClient;
-use Imdhemy\GooglePlay\Subscriptions\SubscriptionPurchase;
-use Imdhemy\GooglePlay\ValueObjects\EmptyResponse;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionDeferralInfo;
+use Kashi326\GooglePlay\ClientFactory;
+use Kashi326\GooglePlay\Subscriptions\SubscriptionClient;
+use Kashi326\GooglePlay\Subscriptions\SubscriptionPurchase;
+use Kashi326\GooglePlay\ValueObjects\EmptyResponse;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionDeferralInfo;
 use Tests\TestCase;
 
 class SubscriptionClientTest extends TestCase

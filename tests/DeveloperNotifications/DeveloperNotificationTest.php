@@ -2,12 +2,12 @@
 
 namespace Tests\DeveloperNotifications;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\DeveloperNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\SubscriptionNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\TestNotification;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\DeveloperNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\SubscriptionNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\TestNotification;
+use Kashi326\GooglePlay\ValueObjects\Time;
 use JsonException;
 use Tests\TestCase;
 

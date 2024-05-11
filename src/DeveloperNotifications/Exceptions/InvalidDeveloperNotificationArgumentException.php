@@ -1,6 +1,6 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications\Exceptions;
+namespace Kashi326\GooglePlay\DeveloperNotifications\Exceptions;
 
 use InvalidArgumentException;
 

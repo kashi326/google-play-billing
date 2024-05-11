@@ -2,8 +2,8 @@
 
 namespace Tests\ValueObjects;
 
-use Imdhemy\GooglePlay\ValueObjects\Price;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionPriceChange;
+use Kashi326\GooglePlay\ValueObjects\Price;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionPriceChange;
 use Tests\TestCase;
 
 class SubscriptionPriceChangeTest extends TestCase

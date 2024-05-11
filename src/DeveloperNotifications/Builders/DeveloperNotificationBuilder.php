@@ -1,12 +1,12 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications\Builders;
+namespace Kashi326\GooglePlay\DeveloperNotifications\Builders;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\RealTimeDeveloperNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\DeveloperNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
-use Imdhemy\GooglePlay\DeveloperNotifications\Factories\NotificationPayloadFactory;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\RealTimeDeveloperNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\DeveloperNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
+use Kashi326\GooglePlay\DeveloperNotifications\Factories\NotificationPayloadFactory;
 
 /**
  * Class DeveloperNotificationBuilder.

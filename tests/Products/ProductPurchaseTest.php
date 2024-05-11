@@ -3,7 +3,7 @@
 namespace Tests\Products;
 
 use Exception;
-use Imdhemy\GooglePlay\Products\ProductPurchase;
+use Kashi326\GooglePlay\Products\ProductPurchase;
 use JsonException;
 use ReflectionClass;
 use ReflectionMethod;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications\Contracts;
+namespace Kashi326\GooglePlay\DeveloperNotifications\Contracts;
 
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\ValueObjects\Time;
 
 /**
  * Interface RealTimeDeveloperNotification.

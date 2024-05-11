@@ -4,7 +4,7 @@ namespace Tests\ValueObjects;
 
 use DateTime;
 use DateTimeInterface;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\ValueObjects\Time;
 use Tests\TestCase;
 
 class TimeTest extends TestCase

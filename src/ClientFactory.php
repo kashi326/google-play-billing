@@ -1,6 +1,6 @@
 <?php
 
-namespace Imdhemy\GooglePlay;
+namespace Kashi326\GooglePlay;
 
 use Exception;
 use Google\Auth\ApplicationDefaultCredentials;

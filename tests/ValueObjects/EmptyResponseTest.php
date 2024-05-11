@@ -3,7 +3,7 @@
 namespace Tests\ValueObjects;
 
 use GuzzleHttp\Psr7\Response;
-use Imdhemy\GooglePlay\ValueObjects\EmptyResponse;
+use Kashi326\GooglePlay\ValueObjects\EmptyResponse;
 use PHPUnit\Framework\TestCase;
 
 class EmptyResponseTest extends TestCase

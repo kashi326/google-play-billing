@@ -1,10 +1,10 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Products;
+namespace Kashi326\GooglePlay\Products;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
-use Imdhemy\GooglePlay\ValueObjects\EmptyResponse;
+use Kashi326\GooglePlay\ValueObjects\EmptyResponse;
 
 /**
  * Class ProductClient

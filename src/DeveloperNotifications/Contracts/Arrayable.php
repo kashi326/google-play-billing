@@ -1,6 +1,6 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications\Contracts;
+namespace Kashi326\GooglePlay\DeveloperNotifications\Contracts;
 
 interface Arrayable
 {

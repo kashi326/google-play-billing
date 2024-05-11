@@ -5,10 +5,10 @@ namespace Tests\Products;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Imdhemy\GooglePlay\ClientFactory;
-use Imdhemy\GooglePlay\Products\ProductClient;
-use Imdhemy\GooglePlay\Products\ProductPurchase;
-use Imdhemy\GooglePlay\ValueObjects\EmptyResponse;
+use Kashi326\GooglePlay\ClientFactory;
+use Kashi326\GooglePlay\Products\ProductClient;
+use Kashi326\GooglePlay\Products\ProductPurchase;
+use Kashi326\GooglePlay\ValueObjects\EmptyResponse;
 use Tests\TestCase;
 
 /**

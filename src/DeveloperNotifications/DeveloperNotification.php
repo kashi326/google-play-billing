@@ -1,12 +1,12 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications;
+namespace Kashi326\GooglePlay\DeveloperNotifications;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\Arrayable;
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\RealTimeDeveloperNotification;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\Arrayable;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\RealTimeDeveloperNotification;
+use Kashi326\GooglePlay\ValueObjects\Time;
 use JsonException;
 use RuntimeException;
 

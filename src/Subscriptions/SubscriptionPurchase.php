@@ -1,12 +1,12 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Subscriptions;
+namespace Kashi326\GooglePlay\Subscriptions;
 
-use Imdhemy\GooglePlay\ValueObjects\Cancellation;
-use Imdhemy\GooglePlay\ValueObjects\IntroductoryPriceInfo;
-use Imdhemy\GooglePlay\ValueObjects\Price;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionPriceChange;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\ValueObjects\Cancellation;
+use Kashi326\GooglePlay\ValueObjects\IntroductoryPriceInfo;
+use Kashi326\GooglePlay\ValueObjects\Price;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionPriceChange;
+use Kashi326\GooglePlay\ValueObjects\Time;
 use JsonSerializable;
 
 /**

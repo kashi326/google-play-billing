@@ -4,8 +4,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "imdhemy",
-      "email": "imdhemy@gmail.com"
+      "name": "Kashif",
+      "email": "kashifahmad0332@gmail.com"
     }
   ],
   "require": {
@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Imdhemy\\GooglePlay\\": "src/"
+      "Kashi326\\GooglePlay\\": "src/"
     }
   },
   "autoload-dev": {

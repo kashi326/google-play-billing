@@ -2,7 +2,7 @@
 
 namespace Tests\ValueObjects;
 
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionCancelSurveyResult;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionCancelSurveyResult;
 use Tests\TestCase;
 
 class SubscriptionCancelSurveyResultTest extends TestCase

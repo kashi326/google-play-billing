@@ -1,6 +1,6 @@
 <?php
 
-namespace Imdhemy\GooglePlay\ValueObjects;
+namespace Kashi326\GooglePlay\ValueObjects;
 
 /**
  * Introductory Price Info.

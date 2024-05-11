@@ -1,12 +1,12 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Subscriptions;
+namespace Kashi326\GooglePlay\Subscriptions;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
-use Imdhemy\GooglePlay\ValueObjects\EmptyResponse;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionDeferralInfo;
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\ValueObjects\EmptyResponse;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionDeferralInfo;
+use Kashi326\GooglePlay\ValueObjects\Time;
 
 /**
  * Subscription Client.

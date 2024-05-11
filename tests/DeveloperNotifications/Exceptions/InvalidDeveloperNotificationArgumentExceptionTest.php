@@ -2,8 +2,8 @@
 
 namespace Tests\DeveloperNotifications\Exceptions;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
-use Imdhemy\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
+use Kashi326\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
+use Kashi326\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
 use Tests\TestCase;
 
 /**

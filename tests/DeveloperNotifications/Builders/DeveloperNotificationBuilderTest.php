@@ -2,10 +2,10 @@
 
 namespace Tests\DeveloperNotifications\Builders;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
-use Imdhemy\GooglePlay\DeveloperNotifications\DeveloperNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
-use Imdhemy\GooglePlay\DeveloperNotifications\TestNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Builders\DeveloperNotificationBuilder;
+use Kashi326\GooglePlay\DeveloperNotifications\DeveloperNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Exceptions\InvalidDeveloperNotificationArgumentException;
+use Kashi326\GooglePlay\DeveloperNotifications\TestNotification;
 use Tests\TestCase;
 
 /**

@@ -1,15 +1,15 @@
 <?php
 
-namespace Imdhemy\GooglePlay\DeveloperNotifications\Factories;
+namespace Kashi326\GooglePlay\DeveloperNotifications\Factories;
 
-use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
-use Imdhemy\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\SubscriptionNotification;
-use Imdhemy\GooglePlay\DeveloperNotifications\TestNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
+use Kashi326\GooglePlay\DeveloperNotifications\OneTimePurchaseNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\SubscriptionNotification;
+use Kashi326\GooglePlay\DeveloperNotifications\TestNotification;
 
 /**
  * Class NotificationPayloadFactory
- * This is tested on @see {Imdhemy\GooglePlay\Tests\DeveloperNotifications\DeveloperNotificationTest}.
+ * This is tested on @see {Kashi326\GooglePlay\Tests\DeveloperNotifications\DeveloperNotificationTest}.
  */
 class NotificationPayloadFactory
 {

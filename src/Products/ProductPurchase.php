@@ -1,8 +1,8 @@
 <?php
 
-namespace Imdhemy\GooglePlay\Products;
+namespace Kashi326\GooglePlay\Products;
 
-use Imdhemy\GooglePlay\ValueObjects\Time;
+use Kashi326\GooglePlay\ValueObjects\Time;
 use JsonSerializable;
 
 /**

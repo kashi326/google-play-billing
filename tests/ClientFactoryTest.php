@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Imdhemy\GooglePlay\ClientFactory;
+use Kashi326\GooglePlay\ClientFactory;
 
 class ClientFactoryTest extends TestCase
 {

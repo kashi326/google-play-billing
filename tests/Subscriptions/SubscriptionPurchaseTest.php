@@ -3,10 +3,10 @@
 namespace Tests\Subscriptions;
 
 use Carbon\Carbon;
-use Imdhemy\GooglePlay\Subscriptions\SubscriptionPurchase;
-use Imdhemy\GooglePlay\ValueObjects\Cancellation;
-use Imdhemy\GooglePlay\ValueObjects\IntroductoryPriceInfo;
-use Imdhemy\GooglePlay\ValueObjects\SubscriptionCancelSurveyResult;
+use Kashi326\GooglePlay\Subscriptions\SubscriptionPurchase;
+use Kashi326\GooglePlay\ValueObjects\Cancellation;
+use Kashi326\GooglePlay\ValueObjects\IntroductoryPriceInfo;
+use Kashi326\GooglePlay\ValueObjects\SubscriptionCancelSurveyResult;
 use JsonException;
 use ReflectionClass;
 use ReflectionMethod;
