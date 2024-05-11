@@ -64,6 +64,26 @@ class SubscriptionClientTest extends TestCase
      *
      * @throws GuzzleException
      */
+    public function getV2()
+    {
+        $response = new Response(200, [], '[]');
+        $transactions = [];
+        $client = ClientFactory::mock($response, $transactions);
+        $subscriptionClient = $this->getSubscriptionClient($client);
+        $this->assertInstanceOf(SubscriptionPurchase::class, $subscriptionClient->getV2());
+
+        /** @var Request $request */
+        $request = $transactions[0]['request'];
+        $uri = $this->getEndpoint(SubscriptionClient::URI_GET);
+
+        $this->assertEquals($uri, (string)$request->getUri());
+    }
+
+    /**
+     * @test
+     *
+     * @throws GuzzleException
+     */
     public function acknowledge()
     {
         $acknowledgeResponse = new Response(200, [], '[]');

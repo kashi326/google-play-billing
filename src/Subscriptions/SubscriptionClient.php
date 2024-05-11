@@ -14,6 +14,7 @@ use Imdhemy\GooglePlay\ValueObjects\Time;
 class SubscriptionClient
 {
     public const URI_GET = 'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/%s/purchases/subscriptions/%s/tokens/%s';
+    public const URI_GET_V2 = 'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/%s/purchases/subscriptionsv2/%s/tokens/%s';
     public const URI_ACKNOWLEDGE = 'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/%s/purchases/subscriptions/%s/tokens/%s:acknowledge';
     public const URI_CANCEL = 'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/%s/purchases/subscriptions/%s/tokens/%s:cancel';
     public const URI_DEFER = 'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/%s/purchases/subscriptions/%s/tokens/%s:defer';
@@ -102,6 +103,18 @@ class SubscriptionClient
     public function get(): SubscriptionPurchase
     {
         $uri = $this->getEndpoint(self::URI_GET);
+        $response = $this->client->get($uri);
+        $responseBody = json_decode((string)$response->getBody(), true);
+
+        return SubscriptionPurchase::fromArray($responseBody);
+    }
+
+    /**
+     * @throws GuzzleException
+     */
+    public function getV2(): SubscriptionPurchase
+    {
+        $uri = $this->getEndpoint(self::URI_GET_V2);
         $response = $this->client->get($uri);
         $responseBody = json_decode((string)$response->getBody(), true);
 
